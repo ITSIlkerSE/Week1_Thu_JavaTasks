@@ -10,7 +10,7 @@ public class IfElseAlarmTest {
         int count = 31;
 
         //When
-        String actual = IfAlarm.IfOver30(count);
+        String actual = IfElseAlarm.IfOver30(count);
 
         //Then
         assertEquals("Zu viele Personen", actual);
@@ -23,7 +23,7 @@ public class IfElseAlarmTest {
         int count = 29;
 
         //When
-        String actual = IfAlarm.IfOver30(count);
+        String actual = IfElseAlarm.IfOver30(count);
 
         //Then
         assertEquals("Maximale Personenzahl nicht überschritten", actual);
